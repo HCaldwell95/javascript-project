@@ -67,13 +67,34 @@ function compare(comChoice) {
         } else if (comChoice === "star") {
             return "jingle outshines star <br> You Win!";
         }
-
-
+    }
 }
 
+// jQuery function to be executed when the document is ready
+$(document).ready(function(){
+
+    // jQuery function on click
+    $("button").click(function(){
+        userChoice = this.id;
+        computerChoice = Math.floor(Math.random() * 5);
+    }
+
+    // Convert the random number to a corresponding choice
+    switch (computerChoice) {
+        case 0: computerChoice = "candy cane";
+            break;
+        case 1: computerChoice = "bauble";
+            break;
+        case 2: computerChoice = "star";
+            break;
+        case 3: computerChoice = "gingerbread";
+            break;
+        case 4: computerChoice = "jingle";
+            break;
+    }
+
+})
 
 
 
 
-
-}
