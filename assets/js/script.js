@@ -68,7 +68,7 @@ function compare(comChoice) {
             return "jingle outshines star <br> You Win!";
         }
     }
-}
+};
 
 // jQuery function to be executed when the document is ready
 $(document).ready(function(){
@@ -77,23 +77,29 @@ $(document).ready(function(){
     $("button").click(function(){
         userChoice = this.id;
         computerChoice = Math.floor(Math.random() * 5);
-    }
+    
+        // Convert the random number to a corresponding choice
+        switch (computerChoice) {
+            case 0: computerChoice = "candy cane";
+                break;
+            case 1: computerChoice = "bauble";
+                break;
+            case 2: computerChoice = "star";
+                break;
+            case 3: computerChoice = "gingerbread";
+                break;
+            case 4: computerChoice = "jingle";
+                break;
+        }
+    
+        // Compare user and computer choices and present result in uppercase
+        var result = compare(computerChoice).toUpperCase();
 
-    // Convert the random number to a corresponding choice
-    switch (computerChoice) {
-        case 0: computerChoice = "candy cane";
-            break;
-        case 1: computerChoice = "bauble";
-            break;
-        case 2: computerChoice = "star";
-            break;
-        case 3: computerChoice = "gingerbread";
-            break;
-        case 4: computerChoice = "jingle";
-            break;
-    }
-
-})
+        //Display the result in the HTML element with class "result"
+        $(".result").html("<h1>Result:</h1><p>User: " + userChoice.toUpperCase() + "<br>" + 
+                            "Computer: " + computerChoice.toUpperCase() + "</p>" + "<p>" + result + "</p>");
+    })
+});
 
 
 
