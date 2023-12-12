@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.game-area {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #cda5dd;
+    border-radius: 30px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+.result p:last-of-type {
+    font-size: 1.5em;
+}
