@@ -78,7 +78,7 @@ $(document).ready(function(){
         var result = compare(computerChoice).toUpperCase();
 
         /* Display the result in the HTML element with class "result" */
-        $(".result").html("<h2>Result:</h2><p>User: " + userChoice.toUpperCase() + "<br>" + 
+        $(".result").html("<h2>Result:</h2><p>Player: " + userChoice.toUpperCase() + "<br>" + 
                             "Computer: " + computerChoice.toUpperCase() + "</p>" + "<p>" + result + "</p>");
     });
 });
