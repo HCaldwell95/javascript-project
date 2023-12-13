@@ -24,7 +24,9 @@ h2 {
     background-image: url("../images/old-letter-background.jpg");
     background-size: cover;
     background-position: center;
+    border: solid 10px red;
     border-radius: 25px;
+    
 }
 
 .introduction-area p {

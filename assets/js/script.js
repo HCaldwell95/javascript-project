@@ -2,6 +2,10 @@
 var userChoice;
 var computerChoice;
 
+/* Variables to store score counts */
+var wins = 0;
+var losses = 0;
+
 /* Defines rules for each combination */
 var rules = {
     "candy cane": {
@@ -49,6 +53,14 @@ function compare(comChoice) {
 
     /* Use the rules variable to determine the outcome */
     var outcome = rules[userChoice][comChoice];
+
+    /* Update score based on the outcome */
+    if (outcome.includes("You Win!")) {
+        wins++;
+    } else {
+        losses++;
+    }
+
     return outcome;
 }
 
@@ -79,7 +91,8 @@ $(document).ready(function(){
 
         /* Display the result in the HTML element with class "result" */
         $(".result").html("<h2>Result:</h2><p>Player: " + userChoice.toUpperCase() + "<br>" + 
-                            "Computer: " + computerChoice.toUpperCase() + "</p>" + "<p>" + result + "</p>");
+                            "Computer: " + computerChoice.toUpperCase() + "</p>" + "<p>" + result + "</p>" + 
+                            "<p>Wins: " + wins + "<br>" + "Losses " + losses + "</p>");
     });
 });
 
