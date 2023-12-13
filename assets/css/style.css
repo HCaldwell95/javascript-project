@@ -3,6 +3,21 @@ body {
     width: 80%;
     max-width: 700px;
     margin: auto;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 38px;
+    border-bottom: groove 4px black;
+    border-radius: 20px;
+    top: 0;
+    margin: 10px;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+h2 {
+    font-family: 'kanit', sans-serif;
 }
 
 .game-area {
