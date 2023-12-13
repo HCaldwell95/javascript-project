@@ -4,8 +4,6 @@ body {
     max-width: 700px;
     margin: auto;
     font-family: 'Lora', serif;
-    background-image: url('assets/images/frosty-background.jpg');
-    background-size: cover;
 }
 
 h1 {
@@ -23,15 +21,21 @@ h2 {
 }
 
 .introduction-area {
-    background-image: url('assets/images/old-letter-background.jpg');
+    background-image: url("../images/old-letter-background.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 25px;
+}
+
+.introduction-area p {
+    margin: 10px;
+    padding-bottom: 50px;
 }
 
 .game-area {
     padding: 20px;
     margin: 20px auto;
-    background-color: #cda5dd;
+    background-color: rgba(158, 158, 101, 0.3);
     border-radius: 30px;
 }
 
