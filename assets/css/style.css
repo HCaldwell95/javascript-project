@@ -35,10 +35,26 @@ h2 {
 }
 
 .game-area {
+    position: relative;
     padding: 20px;
     margin: 20px auto;
     background-color: rgba(158, 158, 101, 0.3);
+    border: groove 2px white;
     border-radius: 30px;
+}
+
+.game-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/frozen-glass.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
 }
 
 p {
