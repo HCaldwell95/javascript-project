@@ -1,84 +1,62 @@
-// Variables to store user and computer choices
+/* Variables to store user and computer choices */
 var userChoice;
 var computerChoice;
 
-// Compares user and computer choices to determine the winner
+/* Compares user and computer choices to determine the winner */
 function compare(comChoice) {
-    // Checks for a draw
+    /* Checks for a draw */
     if (userChoice === comChoice) {
         return "The computer also chose " + computerChoice + ":" + "<br>" + "the result is a draw! :|";
-    
-    // Checks outcome if user chooses candy cane
-    } else if (userChoice === "candy cane") {
-        if (comChoice === "star") {
-            return "star eradicates candy cane <br> You Lose!";
-        } else if (comChoice === "bauble") {
-            return "candy cane bursts bauble <br> You Win!";
-        } else if (comChoice === "gingerbread") {
-            return "candy cane obliterates gingerbread <br> You Win!";
-        } else if (comChoice === "jingle") {
-            return "jingle shatters candy cane <br> You Lose!";
-        }
-
-    // Checks outcome when user chooses bauble
-    } else if (userChoice === "bauble") {
-        if (comChoice === "star") {
-            return "bauble captures star <br> You Win! ";
-        } else if (comChoice === "candy cane") {
-            return "candy cane crushes bauble <br> You Lose!";
-        } else if (comChoice === "gingerbread") {
-            return "gingerbread smothers bauble <br> You Lose!";
-        } else if (comChoice === "jingle") {
-            return "bauble isolates jingle <br> You Win!";
-        }
-    
-    // Checks outcome when user chooses star
-    } else if (userChoice === "star") {
-        if (comChoice === "gingerbread") {
-            return "star evaporates gingerbread <br> You Win! ";
-        } else if (comChoice === "candy cane") {
-            return "candy cane crushes bauble <br> You Lose!";
-        } else if (comChoice === "gingerbread") {
-            return "gingerbread smothers bauble <br> You Lose!";
-        } else if (comChoice === "jingle") {
-            return "bauble isolates jingle <br> You Win!";
-        }
-
-    // Checks outcome when user chooses gingerbread
-    } else if (userChoice === "gingerbread") {
-    if (comChoice === "jingle") {
-        return "gingerbread consumes jingle <br> You Win! ";
-    } else if (comChoice === "star") {
-        return "star evaporates gingerbread <br> You Lose!";
-    } else if (comChoice === "candy cane") {
-        return "candy cane obliterates gingerbread <br> You Lose!";
-    } else if (comChoice === "bauble") {
-        return "gingerbread smothers bauble <br> You Win!";
     }
 
-    // Checks outcome when user chooses gingerbread
-    } else if (userChoice === "jingle") {
-        if (comChoice === "candy cane") {
-            return "jingle shatters candy cane <br> You Win! ";
-        } else if (comChoice === "bauble") {
-            return "bauble isolates jingle <br> You Lose!";
-        } else if (comChoice === "gingerbread") {
-            return "gingerbread consumes jingle <br> You Lose!";
-        } else if (comChoice === "star") {
-            return "jingle outshines star <br> You Win!";
-        }
+    /* Defines rules for each combination */
+    var rules = {
+        "candy cane": {
+            "star": "star eradicates candy cane <br> You Lose!",
+            "jingle": "jingle shatters candy cane <br> You Lose!",
+            "bauble": "candy cane bursts bauble <br> You Win!",
+            "gingerbread": "candy cane obliterates gingerbread <br> You Win!"
+        },
+
+        "bauble": {
+            "candy cane": "candy cane bursts bauble <br> You Lose!",
+            "gingerbread": "gingerbread smothers bauble <br> You Lose!",
+            "jingle": "bauble isolates jingle <br> You Win!",
+            "star": "bauble captures star <br> You Win!"
+        },
+
+        "star": {
+            "bauble": "bauble captures star <br> You Lose!",
+            "jingle": "jingle outshines star <br> You Lose!",
+            "candy cane": "star eradicates candy cane <br> You Win!",
+            "gingerbread": "star evaporates gingerbread <br> You Win!"
+        },
+
+        "gingerbread": {
+            "star": "star evaporates gingerbread <br> You Lose!",
+            "candy cane": "candy cane obliterates gingerbread <br> You Lose!",
+            "bauble": "gingerbread smothers bauble <br> You Win!",
+            "jingle": "gingerbread consumes jingle <br> You Win!"
+        },
+
+        "jingle": {
+            "bauble": "bauble isolates jingle <br> You Lose!",
+            "gingerbread": "gingerbread consumes jingle <br> You Lose!",
+            "candy cane": "jingle shatters candy cane <br> You Win!",
+            "star": "jingle outshines star <br> You Win!"
+        },
     }
 };
 
-// jQuery function to be executed when the document is ready
+/* jQuery function to be executed when the document is ready */
 $(document).ready(function(){
 
-    // jQuery function on click
+    /* jQuery function on click */
     $("button").click(function(){
         userChoice = this.id;
         computerChoice = Math.floor(Math.random() * 5);
     
-        // Convert the random number to a corresponding choice
+        /* Convert the random number to a corresponding choice */
         switch (computerChoice) {
             case 0: computerChoice = "candy cane";
                 break;
@@ -92,10 +70,10 @@ $(document).ready(function(){
                 break;
         }
     
-        // Compare user and computer choices and present result in uppercase
+        /* Compare user and computer choices and present result in uppercase */
         var result = compare(computerChoice).toUpperCase();
 
-        //Display the result in the HTML element with class "result"
+        /* Display the result in the HTML element with class "result" */
         $(".result").html("<h1>Result:</h1><p>User: " + userChoice.toUpperCase() + "<br>" + 
                             "Computer: " + computerChoice.toUpperCase() + "</p>" + "<p>" + result + "</p>");
     })
