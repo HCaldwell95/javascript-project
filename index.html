@@ -7,7 +7,7 @@
     <meta name="author" content="Hayden Caldwell">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <!-- Google Fonts Here -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Jingle Jubilee Joust</title>
 </head>
-<body background="assets/images/frosty-background.jpg">
+<body>
     <h1 class="heading">
         <span class="red-text">Jingle</span>
         <span class="blue-text">Jubilee</span> 
@@ -26,8 +26,8 @@
     <section id="information">
         <div class="introduction-area">
             <h2 class="red-text sub-heading">Game Brief</h2>
-            <span>
-                <p>
+            <p>
+                <span>
                     Ho, ho, ho! 'Tis the season for a merry challenge in the Holly Jolly Village!
                     Santa has prepared a spectacle like never before - the Jingle Jubilee Joust! 
                     <br>
@@ -36,15 +36,18 @@
                     clashes, Bauble brawls, Starlit skirmishes, Gingerbread gambits and Jingle jousts!! 
                     <br>
                     <br>
-                    Who will emerge as the ultimate Yuletide Champion?! 🎅🎄
-                </p>
-            </span>
+                    Who will emerge as the ultimate Yuletide Champion?!
+                </span>
+            </p>
         </div>
         <div class="countdown-area">
             <div id="countdown-sign"><img src="/assets/images/hanging-sign.png" alt="Hanging wooden sign">
+                <div id="countdown-sign-tint"></div>
             <!-- Displays the christmas countdown timer -->
                 <p>
-                    Countdown to Christmas: <span id="christmas-countdown"></span>
+                    Countdown to Christmas: 
+                    <br>
+                    <span id="christmas-countdown"></span>
                 </p>
             </div>
         </div>

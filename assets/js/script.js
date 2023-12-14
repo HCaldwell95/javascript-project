@@ -64,7 +64,6 @@ function compare(comChoice) {
     } else {
         losses++;
     }
-
     return outcome;
 }
 

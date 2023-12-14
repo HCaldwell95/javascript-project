@@ -2,22 +2,25 @@
 /* General styles */
 
 body {
+    background-image: url("/assets/images/frosty-background.jpg");
+    background-size: cover;
+    background-position: 0, 0;
     text-align: center;
     width: 80%;
     max-width: 700px;
     margin: auto;
     font-family: 'Lora', serif;
-    font-size: 22;
 }
 
 /* Main header styles*/
 
 h1 {
     font-size: 56px;
-    border-bottom: groove 4px black;
+    border-bottom: groove 4px rgb(36, 19, 4);
+    border-style:outset;
     border-radius: 20px;
     top: 0;
-    margin: 10px;
+    margin: 30px 10px;
     font-family: 'Permanent Marker', cursive; 
 }
 
@@ -64,7 +67,7 @@ h2 {
     padding: 0 20px 50px;
 }
 
-.introduction-area > span > p { 
+.introduction-area > p > span { 
     display: inline;  
     font-weight: 700;
     font-size: 22px;
@@ -92,12 +95,27 @@ h2 {
     display: block;
 }
 
+#countdown-sign-tint {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 240px;
+    height: 200px;
+    max-height: 300px;
+    background-color:rgba(158, 158, 101, 0.1);
+    border-radius: 10%;
+    border-width:thick;
+}
+
 #countdown-sign p {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(22, 88, 230);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -192,7 +210,7 @@ h2 {
 }
 
 .result > p {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 /* Styles for score counter */
@@ -207,18 +225,16 @@ h2 {
 @media screen and (max-width: 430px) {
 
     h1 {
-        font-size: 48px;
-        width: 100%;
+        font-size: 40px;
+        text-align: center;
+        width: 90%;
         border: none;
+        margin: 0 20px;
     }
 
     body {
-        text-align: center;
         width: 90%;
         max-width: 410px;
-        margin: auto;
-        font-family: 'Lora', serif;
-        font-size: 22;
     }
 
     .game-area {
@@ -230,14 +246,14 @@ h2 {
         -webkit-text-stroke-color: rgb(0, 187, 0);
         font-family: 'Lora', sans-serif;
         color: navy;
-        font-size: 32px;
+        font-size: 26px;
     }
     
     .game-area > p { 
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 700;
         color:rgb(12, 20, 82);
-        line-height: 36px;
+        line-height: 32px;
         padding-bottom: 20px;
     }
 
@@ -263,9 +279,7 @@ h2 {
         color: rgb(22, 88, 230);
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
-        background-color:rgba(255, 255, 255, 0.2);
-        border-radius: 10%;
-        border-width:thick;
+        
         font-size: 20px;
         font-weight: 700;
         text-align: center;
@@ -274,17 +288,55 @@ h2 {
     }
 
     .result > h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
         
     .result > p {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    .result p:last-of-type {
+        font-size: 1em;
+    }
+
+    .choice-image > img {
+        max-width: 30px;
+        max-height: 30px;
     }
 }
 
-
-
-/* Medium devices such as phones (431px and up) */
+/* Medium devices such as tablets (431px and up) */
 @media screen and (min-width: 431px) {
 
+    #countdown-sign img{
+        max-width: 400px;
+        max-height: 200px;
+        min-width: 250px;
+        position: relative;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #countdown-sign p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(22, 88, 230);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        font-size: 1.1em;
+        font-weight: 700;
+        text-align: center;
+        padding: 25px;
+        width: 60%;
+    }
+
+    #user-options button {
+        max-width: 70px;
+        max-height: 70px;
+        min-width: 70px;
+        min-height: 70px;
+    }
 }
