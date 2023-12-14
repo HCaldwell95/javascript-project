@@ -1,3 +1,7 @@
+/**
+ * JavaScript for the 'Rock, Paper, Scissors, Lizard, Spock' style game (lines 5 - 101)
+ */
+
 /* Variables to store user and computer choices */
 var userChoice;
 var computerChoice;
@@ -95,3 +99,35 @@ $(document).ready(function(){
                             "<p>Wins: " + wins + "<br>" + "Losses " + losses + "</p>");
     });
 });
+
+/**
+ * JavaScript for countdown to christmas timer (lines 107 - 136)
+ */
+
+/* Sets the date that we are counting to */
+var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
+
+/* Updates the count down every one second */
+var x = setInterval(function() {
+
+    /* Get today's date and time */
+    var now = new Date().getTime();
+
+    /* Find the distance between now and the count down date */
+    var distance = countDownDate - now;
+
+    /* Time calculations for days, hours, minutes and seconds */
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    /* Display the result in our HTML element */
+    document.getElementById("christmas-countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+    /* if the countdown is finished, write some text */
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("christmas-countdown").innerHTML = "It's Christmas!";
+    }
+}, 1000);
