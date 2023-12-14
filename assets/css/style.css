@@ -26,6 +26,7 @@ h1 {
 h2 {
     font-family: 'kanit', sans-serif;
     font-size: 34px;
+    text-transform: uppercase;
 }
 
 .red-text {
@@ -132,11 +133,22 @@ h2 {
 
 /* Font styles */
 
+.game-area > h2 {
+    background: url("/assets/images/frozen-text-texture.jpg");
+    background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Lora', sans-serif;
+    color: transparent;
+    font-size: 50px;
+}
+
 .game-area > p {
     font-size: 24px;
 }
 
 /* User options button styles */
+
 #user-options button {
     background-color: transparent;
     background-size: contain;
@@ -153,7 +165,6 @@ h2 {
 #candy-cane {
     background-image: url("/assets/images/candy-cane.png");
     padding-top: 10px;
-
 }
 
 #bauble {
@@ -181,3 +192,6 @@ h2 {
 .result p:last-of-type {
     font-size: 1.5em;
 }
+
+/* Media Queries */
+
