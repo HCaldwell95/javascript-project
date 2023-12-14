@@ -203,3 +203,54 @@ h2 {
 
 /* Media Queries */
 
+/* Small devices such as phones (430px and down) */
+@media screen and (max-width: 430px) {
+
+    h1 {
+        font-size: 48px;
+        width: 100%;
+    }
+
+    body {
+        text-align: center;
+        width: 90%;
+        max-width: 410px;
+        margin: auto;
+        font-family: 'Lora', serif;
+        font-size: 22;
+    }
+
+    .game-area {
+        width:80%;
+    }
+
+    .game-area > h2 {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(0, 187, 0);
+        font-family: 'Lora', sans-serif;
+        color: navy;
+        font-size: 40px;
+    }
+    
+    .game-area > p { 
+        font-size: 22px;
+        font-weight: 700;
+        color:rgb(12, 20, 82);
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    #user-options button {
+        background-color: transparent;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+        max-width: 100px;
+        max-height: 100px;
+        min-width: 100px;
+        min-height: 100px;
+        margin: 0 10px;
+        transition: all 0.5s;
+        padding-top: 10px;
+    }
+}
