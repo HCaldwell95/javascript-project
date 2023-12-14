@@ -52,7 +52,7 @@ h2 {
 .introduction-area {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../images/wood-background.jpg");
+        url("../images/dark-wood-background.jpg");
     background-size: cover;
     background-position: center;
     border: solid 10px;

@@ -35,7 +35,7 @@ let rules = {
 
     "gingerbread": {
         "star": "star evaporates gingerbread <br> You Lose!",
-        "candy cane": "candy cane obliterates gingerbread <br> You Lose!",
+        "candy-cane": "candy cane obliterates gingerbread <br> You Lose!",
         "bauble": "gingerbread smothers bauble <br> You Win!",
         "jingle": "gingerbread consumes jingle <br> You Win!"
     },
@@ -43,7 +43,7 @@ let rules = {
     "jingle": {
         "bauble": "bauble isolates jingle <br> You Lose!",
         "gingerbread": "gingerbread consumes jingle <br> You Lose!",
-        "candy cane": "jingle shatters candy cane <br> You Win!",
+        "candy-cane": "jingle shatters candy cane <br> You Win!",
         "star": "jingle outshines star <br> You Win!"
     },
 };
