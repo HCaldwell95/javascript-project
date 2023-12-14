@@ -20,35 +20,29 @@ h2 {
 }
 
 .introduction-area {
-    background-image: url("../images/wooden-plank.jpg");
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("../images/wood-background.jpg");
     background-size: cover;
     background-position: center;
     border: solid 10px;
     border-radius: 25px;
     border-image: url(../images/candy-cane-border.jpg) 100;
-}
-
-.introduction-area {
     margin-left: 20px;
     margin-right: 20px;
     top: 0;
-    padding: 0 50px;
-    font-weight: 700;
-    color: white;
+    padding: 0 20px 50px;
+    color: red;
 }
 
-.color-overlay {
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, .69);
-    margin: 0;
-    display: block;
-    max-height: 550px;
-    width: 80%;
-}
+span > p { 
+    display: inline;  
+    font-weight: 700;
+    color: rgb(58, 206, 44);
+} 
 
 .game-area {
     position: relative;
