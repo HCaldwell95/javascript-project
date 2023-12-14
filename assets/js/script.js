@@ -12,7 +12,7 @@ var losses = 0;
 
 /* Defines rules for each combination */
 var rules = {
-    "candy cane": {
+    "candy-cane": {
         "star": "star eradicates candy cane <br> You Lose!",
         "jingle": "jingle shatters candy cane <br> You Lose!",
         "bauble": "candy cane bursts bauble <br> You Win!",
@@ -20,7 +20,7 @@ var rules = {
     },
 
     "bauble": {
-        "candy cane": "candy cane bursts bauble <br> You Lose!",
+        "candy-cane": "candy cane bursts bauble <br> You Lose!",
         "gingerbread": "gingerbread smothers bauble <br> You Lose!",
         "jingle": "bauble isolates jingle <br> You Win!",
         "star": "bauble captures star <br> You Win!"
@@ -29,7 +29,7 @@ var rules = {
     "star": {
         "bauble": "bauble captures star <br> You Lose!",
         "jingle": "jingle outshines star <br> You Lose!",
-        "candy cane": "star eradicates candy cane <br> You Win!",
+        "candy-cane": "star eradicates candy cane <br> You Win!",
         "gingerbread": "star evaporates gingerbread <br> You Win!"
     },
 
@@ -78,7 +78,7 @@ $(document).ready(function(){
     
         /* Convert the random number to a corresponding choice */
         switch (computerChoice) {
-            case 0: computerChoice = "candy cane";
+            case 0: computerChoice = "candy-cane";
                 break;
             case 1: computerChoice = "bauble";
                 break;
