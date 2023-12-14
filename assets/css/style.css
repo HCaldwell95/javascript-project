@@ -42,13 +42,13 @@ h2 {
 }
 
 .introduction-area {
-    background-image: 
+    /*background-image: 
         linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
         ),
         url("../images/wood-background.jpg");
-    background-size: cover;
+    */background-size: cover;
     background-position: center;
     border: solid 10px;
     border-radius: 25px;
@@ -65,6 +65,37 @@ span > p {
     font-weight: 700;
     color:rgb(100, 255, 100)
 } 
+
+.countdown-area {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 75%;
+    max-height: 300px;
+
+}
+
+#countdown-sign {
+    position: relative;
+}
+
+#countdown-sign img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#countdown-sign p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
 
 .game-area {
     position: relative;
