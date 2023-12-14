@@ -143,8 +143,12 @@ h2 {
     font-size: 50px;
 }
 
-.game-area > p {
+.game-area > p { 
     font-size: 24px;
+    font-weight: 700;
+    color:rgb(12, 20, 82);
+    line-height: 75px;
+    padding-bottom: 20px;
 }
 
 /* User options button styles */
@@ -160,31 +164,37 @@ h2 {
     min-height: 100px;
     margin: 0 10px;
     transition: all 0.5s;
+    padding-top: 10px;
 }
 
 #candy-cane {
     background-image: url("/assets/images/candy-cane.png");
-    padding-top: 10px;
 }
 
 #bauble {
     background-image: url("/assets/images/bauble.png");
-    padding-top: 10px;
 }
 
 #star {
     background-image: url("/assets/images/star.png");
-    padding-top: 10px;
 }
 
 #gingerbread {
     background-image: url("/assets/images/gingerbread.png");
-    padding-top: 10px;
 }
 
 #jingle {
     background-image: url("/assets/images/jingle.png");
+}
+
+/* Result styles */
+
+.result > h2 {
     padding-top: 10px;
+}
+
+.result > p {
+    font-size: 30px;
 }
 
 /* Styles for score counter */
