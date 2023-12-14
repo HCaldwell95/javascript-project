@@ -95,7 +95,3 @@ $(document).ready(function(){
                             "<p>Wins: " + wins + "<br>" + "Losses " + losses + "</p>");
     });
 });
-
-
-
-

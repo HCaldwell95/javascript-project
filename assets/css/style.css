@@ -12,8 +12,7 @@ h1 {
     border-radius: 20px;
     top: 0;
     margin: 10px;
-    font-family: 'Permanent Marker', cursive;
-    
+    font-family: 'Permanent Marker', cursive; 
 }
 
 h2 {
@@ -21,17 +20,34 @@ h2 {
 }
 
 .introduction-area {
-    background-image: url("../images/old-letter-background.jpg");
+    background-image: url("../images/wooden-plank.jpg");
     background-size: cover;
     background-position: center;
-    border: solid 10px red;
+    border: solid 10px;
     border-radius: 25px;
-    
+    border-image: url(../images/candy-cane-border.jpg) 100;
 }
 
-.introduction-area p {
-    margin: 10px;
-    padding-bottom: 50px;
+.introduction-area {
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 0;
+    padding: 0 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.color-overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .69);
+    margin: 0;
+    display: block;
+    max-height: 550px;
+    width: 80%;
 }
 
 .game-area {
