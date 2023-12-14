@@ -134,12 +134,10 @@ h2 {
 /* Font styles */
 
 .game-area > h2 {
-    background: url("/assets/images/frozen-text-texture.jpg");
-    background-clip: text;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 187, 0);
     font-family: 'Lora', sans-serif;
-    color: transparent;
+    color: navy;
     font-size: 50px;
 }
 

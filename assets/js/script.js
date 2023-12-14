@@ -3,15 +3,15 @@
  */
 
 /* Variables to store user and computer choices */
-var userChoice;
-var computerChoice;
+let userChoice;
+let computerChoice;
 
 /* Variables to store score counts */
-var wins = 0;
-var losses = 0;
+let wins = 0;
+let losses = 0;
 
 /* Defines rules for each combination */
-var rules = {
+let rules = {
     "candy-cane": {
         "star": "star eradicates candy cane <br> You Lose!",
         "jingle": "jingle shatters candy cane <br> You Lose!",
@@ -52,11 +52,11 @@ var rules = {
 function compare(comChoice) {
     /* Checks for a draw */
     if (userChoice === comChoice) {
-        return "The computer also chose " + computerChoice + ":" + "<br>" + "the result is a draw! :|";
+        return "The computer also chose " + computerChoice + ":" + "<br>" + "the result is a draw!";
     }
 
     /* Use the rules variable to determine the outcome */
-    var outcome = rules[userChoice][comChoice];
+    let outcome = rules[userChoice][comChoice];
 
     /* Update score based on the outcome */
     if (outcome.includes("You Win!")) {
@@ -91,7 +91,7 @@ $(document).ready(function(){
         }
     
         /* Compare user and computer choices and present result in uppercase */
-        var result = compare(computerChoice).toUpperCase();
+        let result = compare(computerChoice).toUpperCase();
 
         /* Display the result in the HTML element with class "result" */
         $(".result").html("<h2>Result:</h2><p>Player: " + userChoice.toUpperCase() + "<br>" + 
@@ -105,22 +105,22 @@ $(document).ready(function(){
  */
 
 /* Sets the date that we are counting to */
-var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
+let countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
 
 /* Updates the count down every one second */
-var x = setInterval(function() {
+let x = setInterval(function() {
 
     /* Get today's date and time */
-    var now = new Date().getTime();
+    let now = new Date().getTime();
 
     /* Find the distance between now and the count down date */
-    var distance = countDownDate - now;
+    let distance = countDownDate - now;
 
     /* Time calculations for days, hours, minutes and seconds */
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     /* Display the result in our HTML element */
     document.getElementById("christmas-countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
