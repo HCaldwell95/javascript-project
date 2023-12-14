@@ -209,6 +209,7 @@ h2 {
     h1 {
         font-size: 48px;
         width: 100%;
+        border: none;
     }
 
     body {
@@ -229,14 +230,14 @@ h2 {
         -webkit-text-stroke-color: rgb(0, 187, 0);
         font-family: 'Lora', sans-serif;
         color: navy;
-        font-size: 40px;
+        font-size: 32px;
     }
     
     .game-area > p { 
         font-size: 22px;
         font-weight: 700;
         color:rgb(12, 20, 82);
-        line-height: 40px;
+        line-height: 36px;
         padding-bottom: 20px;
     }
 
@@ -245,12 +246,45 @@ h2 {
         background-size: contain;
         background-repeat: no-repeat;
         border: none;
-        max-width: 100px;
-        max-height: 100px;
-        min-width: 100px;
-        min-height: 100px;
+        max-width: 40px;
+        max-height: 40px;
+        min-width: 30px;
+        min-height: 30px;
         margin: 0 10px;
         transition: all 0.5s;
         padding-top: 10px;
     }
+
+    #countdown-sign p {
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(22, 88, 230);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        background-color:rgba(255, 255, 255, 0.2);
+        border-radius: 10%;
+        border-width:thick;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        padding: 25px;
+        width: 60%;
+    }
+
+    .result > h2 {
+        font-size: 24px;
+    }
+        
+    .result > p {
+        font-size: 18px;
+    }
+}
+
+
+
+/* Medium devices such as phones (431px and up) */
+@media screen and (min-width: 431px) {
+
 }
