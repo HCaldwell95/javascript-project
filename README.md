@@ -2,7 +2,7 @@
 
 <img src="assets/images/responsive-test.jpg" alt="Image showing responsive test for my website" width="100%">
 
-Welcome to my second milestone project, Salt And Stone Studios.
+Welcome to my second milestone project, Jingle Jubilee Joust.
 
 The purpose of this project is to demonstrate my learning and understanding of the JavaScript modules that I have completed and to implement them into a live project. This was a great opportunity to showcase my skills in design and development. The project is a functional website, built with HTML, CSS and JavaScript. It features a fully operational JavaScript game, further building on my HTML and CSS skills.
 
@@ -127,123 +127,56 @@ In the features section below, you will see all of the features that I have impl
 ### Existing Features
 
 - __Logo__
-  - The logo for my project is stamped in the top left corner of the header and is consistent through every page. This serves as a constant reminder of where the user is and promotes connection.
+  - The logo for my project is stamped in the top centre of the screen. This serves as a constant reminder of where the user is and promotes connection.
 
   <br>
 
-  <img src="assets/images/logo-home-readme.png" alt="Image showing logo of website on Home page">
-  <img src="assets/images/logo-studios-readme.png" alt="Image showing logo of website on Studios page">
-  <img src="assets/images/logo-team-readme.png" alt="Image showing logo of website on Team page">
-  <img src="assets/images/logo-contact-readme.png" alt="Image showing logo of website on Contact page">
-
-<br>
-
-- __Navigation Bar__
-
-The fully responsive navigation bar, featured consistently on all four pages, contains links to the Home, Studios, Team and Contact pages. Its consistency across all pages ensures seamless navigation, regardless of the user's device, eliminating the need to rely on the browser's 'back' button for page transitions. On mobile devices, the navigation bar is nested within a hamburger icon; once clicked, it reveals a dropdown menu, ultimately saving precious screen real estate on smaller devices.
-
-<br>
-
-<div id="nav-bar-readme">
-<img src="assets/images/navbar-dropdown.png" alt="Image demonstrating navigation bar dropdown menu">
-<img src="assets/images/navbar-extended.png" alt="Image demonstrating navigation bar extended on larger screens">
-</div>
+  <img src="assets/images/" alt="Image showing logo of website on landing page">
 
 <br>
 
 - __The Landing Page__
 
-  - The Landing Page features a captivating photograph, overlayed with text, offering users a clear sense of the site's relevance to specific locations. This section introduces the website and reassures users that they are in the right place.
+  - The Landing Page features thematic frosty background, followed up by vibrant, colourful content to enable the user to be drawn in. The first bit of content is the 'GAME BRIEF', offering users a clear sense of the site's purpose and what they should expect. This section introduces the website and reassures users that they are in the right place.
 
   <br>
 
-<img src="assets/images/landing-page-readme.png" alt="Image showing landing page of website">
+<img src="assets/images/" alt="Image showing landing page of website">
 
 <br>
 
-- __About Section__
+- __Christmas Countdown Section__
 
-  - The about section will allow the user to get to know the Studio and its history. This user will see the value of looking further into this website and exploring everything that it has to offer.. This should encourage the user to consider booking time in at our studio or be inspired and get creative.
-
-  <br>
-
-  <img src="assets/images/about-readme.png" alt="Image showing about section of website">
-
-- __Quick Links__
-
-  - This section allows the user to quickly navigate to the project's most popular social media pages.
+  - The Christmas Countdown section will allow the user to see exactly how far away Christmas is and will add to their festive experience. This user will see the value of returning to this website and to receive an update on how long they have to wait until Christmas.
 
   <br>
 
-  <img src="assets/images/quick-links-readme.png" alt="Image showing the quick links to YouTube and TikTok on the website">
+  <img src="assets/images/" alt="Image showing the christmas countdown section of the website">
 
-- __Services Section__
+- __The Game Section__
 
-  - The services section provides the user with a brief list of services that the studio provides. This enables the user to quickly determine whether this website is suitable for their needs.
-
-  <img src="assets/images/services-readme.png" alt="Image showing the services provided"></a>
-
-- __Experiences Image Grid__
-
-  - This section displays three images and a video, all of which represent the studio in some sense. The first image is of Snowdonia, the area that the studio is based in. The video demonstrates a world-famous musician recording an album in the studio. The final two images are of famous musicians who have used the studios services in the past. This section will both entice and reassure users that this is an authentic website, providing high quality services.
-
-  <br>
-
-  <img src="assets/images/experience-grid-readme.png" alt="Image showing the experience grid section of the website">
+  - This section is the main purpose of this webpage. It displays a title instructing the user on their next step, followed by a brief description on how to begin the game.
+  - As the name suggests, the game is situated within this section and this is where our users will be aiming to be while browsing our webpage.
+ 
+  <img src="assets/images/" alt="Image showing the experience game section of the website">
 
 <br>
 
-- __The Footer__
+- __The Game Section (Continued...)__
 
-- The footer contains a 'Back To The Top!' button, disguised as a simple up arrow icon. There are also four links to the most popular social media websites, along with the studio address and a small emblem representing the studios date of establishment. 
-- The footer is consistant throughout the website, allowing users to become familiar with the navigation between pages. The social media features encourage user loyalty as they are able to connect deeper through social media links.
-
+- Initially, the game section only shows the brief on how to begin the game, along with the five options available to the user. Once a choice has been made, the area expands, revealing the results of their decision.
+- Once revealed, the results section displays the user and computer choices and reveals the winner. These scores are then tracked and tallied up for the user.
 <br>
+- 
 
-<img src="assets/images/footer-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
-
-<br>
-
-- __The Studios Page__
-
-  - The studios page provides the user with a run-down of the current set up at the studio. There are links available to the equipment that the studio use, along with detailed information of the capabilities of each studio.
-  - This section is valuable to the user as they can determine whether the equipment available suits their needs and they can also learn a little more about said equipment through the links provided to each piece.
-
-  <br>
-
-<img src="assets/images/studios-readme.png" alt="Image showing the Studios page"></a>
-
-- __The Team Page__
-
-  - This page will allow the user to get to know the team. Users can learn more about the artists who established the studio and gain confidence in their abilities. This also provides users with familiarity.
-
-  <br>
-
-<img src="assets/images/team-readme.png" alt="Image showing the Team page"></a>
-
-- __The Contact Page__
-
-  - This page displays all means of communication with the studio. There is also a form established to allow the users to communicate with the creators. 
-
-<img src="assets/images/contact-one-readme.png" alt="Image showing the Contact page"></a>
-
-<br>
-
-<img src="assets/images/contact-two-readme.png" alt="Image showing the Contact page"></a>
-
-  - This form will not allow the users to send it until all of the required criteria is met. The user will be prompted to enter the correct details as detailed in the image below:
-
-  <br>
-
-<img src="assets/images/contact-form-readme.png" alt="Image showing the Contact page"></a>
-
+<img src="assets/images/" alt="Image showing the Game Section"></a>
 
 ## Testing
 
 ### Further Testing
 
 - The project was tested on the following browsers with success: Google Chrome, Microsoft Edge and Mozilla Firefox.
-- The project was manually tested on an iPhone 12 Pro Max, iPhone 13 and iPad Pro 12.9 with success.
+- The project was manually tested on an iPhone SE, iPhone 12 and iPad Pro 12.9 with success.
 - Mozilla Firefox Developer tools were used throughout the project to help test the responsiveness across multiple device options.
 - Mozilla Firefox Developer Tools used to emulate screen sizes below:
   - 360px x 640px (Standard Phone)
@@ -255,25 +188,14 @@ The fully responsive navigation bar, featured consistently on all four pages, co
 
 I used the  <a href="https://validator.w3.org/">W3C HTML Validator</a> and <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a> to validate every page of the project to ensure there were no syntax errors in the project.
 
-- No errors were returned when passing through the official <a href="https://validator.w3.org/">W3C Markup Validator</a>.
+- I received the errors below when passing my webpage through the official <a href="https://validator.w3.org/">W3C Markup Validator</a>.
+- - No errors were returned when passing through the HTMl Validator. To fix it, I did this
+<br>
+- I received the errors below when passing my webpage through the official <a href="https://validator.w3.org/">W3C Markup Validator</a> for my CSS
 - No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.
 
+
 ### Unfixed Bugs
-
-- I discovered that my CSS didn't quite function well after 1440px and up. In the future, with more experience, I would want to ensure that the website is function no matter the size of the screen.
-
-<br>
-
-<img src="assets/images/hero-image-bug-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
-
-<br>
-
-- On the Contact Form, due to having the email entry a required element, the CSS which forces the placeholder text up and out of the box during :focus and :valid doesn't function as planned if the user types anything but an email address. After numerous attempts, I decided that this would need to wait until I have more experience, before I am able to correct the CSS to function more effectively.
-
-<br>
-<br>   
-
-<img src="assets/images/contact-bug-readme.png" alt="Image demonstrating the footer, along with social media links and back to top button">
 
 
 
@@ -308,7 +230,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 5. <em>Type</em> <code>git clone</code>, and <em>paste</em> the link you copied in step 3.
 6. Press <em>Enter</em> to have the local clone created.
 
-The live link can be found here - <https://github.com/HCaldwell95/salt-and-stone-studios>
+The live link can be found here - <https://github.com/HCaldwell95/jingle-jubilee-joust>
 
 ## Credits
 

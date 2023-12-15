@@ -2,9 +2,8 @@
 /* General styles */
 
 body {
-    background-image: url("/assets/images/frosty-background.jpg");
+    background-image: url("assets/images/frosty-background.jpg");
     background-size: cover;
-    background-position: 0, 0;
     text-align: center;
     width: 80%;
     max-width: 700px;
