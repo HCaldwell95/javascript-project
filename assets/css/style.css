@@ -224,7 +224,7 @@ h2 {
 @media screen and (max-width: 430px) {
 
     h1 {
-        font-size: 40px;
+        font-size: 32px;
         text-align: center;
         width: 90%;
         border: none;
@@ -279,7 +279,7 @@ h2 {
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
         
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 700;
         text-align: center;
         padding: 25px;
