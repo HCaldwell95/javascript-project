@@ -46,7 +46,7 @@ Once I established my strategy, the most important consideration from the user's
 First-time visitor goals:
 
 - As a first-time visitor, I want instant clarity about the project's purpose upon landing on the page.
-- I desire effortless navigation - all aspects of the project should be clearly labelled and easy to maneuvor.
+- I desire effortless navigation - all aspects of the project should be clearly labelled and easy to maneuver.
 - I hope to find reinforcement and support for the content that I am consuming through fun imagery and engaging content.
 - I aim to experience a sense of progression while navigating the page without feeling overwhelmed or lost.
 - I want to enjoy a visually engaging experience without becoming fatigued.
@@ -74,7 +74,7 @@ I decided to break my webpage down into manageable sections:
 
 - The main heading, which should be fun and engaging to draw the user in.
 - Sub-headings to allow me to break up my page and allocate content accordingly.
-- An introduction to the game with a bit of lore to allow users to feel emersed in the world I am creating.
+- An introduction to the game with a bit of lore to allow users to feel immersed in the world I am creating.
 
 #### Section 2: Core Features (JavaScript) - 
 
@@ -89,7 +89,7 @@ Having a phased approach would allow me to release a functional website, contain
 
 ## Structure Plane
 
-Recognising early in the project that it would be heavily dependant on the visuals and interactivity, the main challenge was ensuring user engagement and providing enough content and features to retain their attention. I sought inspiration through a long list of familiar websites, shortlisting all that felt good and met the standard that I was looking for. From this list, I reviewed their structure and came up with my own layout to recreate that feeling.
+Recognising early in the project that it would be heavily dependent on the visuals and interactivity, the main challenge was ensuring user engagement and providing enough content and features to retain their attention. I sought inspiration through a long list of familiar websites, shortlisting all that felt good and met the standard that I was looking for. From this list, I reviewed their structure and came up with my own layout to recreate that feeling.
 
 The colour palette for my project was based on an Icy, Sweet / Candy-like, Homely concept. I wanted the website to feel clean and cut like modern pages, consisting of neatly organised segments, while retaining a fun and exciting colour palette which paid homage to the festive season. 
 
@@ -117,7 +117,7 @@ I chose these fonts because they are subtle and cohesive. They allowed for just 
 
 I found it beneficial to prepare written drafts of all my ideas in advance. This approach allowed me remove content which I deemed irrelevant and also proofread and correct any grammatical errors for the content that I intended on implementing; all while providing a structured foundation for my content. Writing the content in advance allowed me to carefully plan text placement, paragraph structure, and the use of subheadings.
 
-I mocked up a few designs on MicrosoftWord and ProCreate, simply for the general layout and flow of the website and this allowed me to piece together the puzzle that was my final design.
+I mocked up a few designs on MicrosoftWord and ProCreate, simply for the general layout and flow of the website and this allowed me to assemble the elements into my final design.
 
 ## Surface Plane
 
@@ -167,7 +167,7 @@ In the features section below, you will see all of the features that I have impl
 - __The Game Section (Continued...)__
 
   - Once a choice has been made, the area expands, revealing the results of their decision.
-  -There is a score counter at the bottom to keep track of the user's current scores. This is incrememnted accordingly every time the game is played.
+  -There is a score counter at the bottom to keep track of the user's current scores. This is incremented accordingly every time the game is played.
 
 <br>
 
@@ -236,7 +236,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 #### Making a Local Clone
 
 1. Find the GitHub Repository.
-2. <em>Click</em> the Code button
+2. <em>Click</em> on the Code button.
 3. <em>Copy</em> the link shown.
 4. In <em>Gitpod</em>, change the directory to the location you would like the cloned directory to be located.
 5. <em>Type</em> <code>git clone</code>, and <em>paste</em> the link you copied in step 3.
@@ -268,11 +268,16 @@ The live link can be found here - <https://github.com/HCaldwell95/jingle-jubilee
  
 - <a href="https://kinsta.com/blog/css-text-outline/" target="_blank">Kinsta</a>
   - Demonstrated the use of '-webkit-text-stroke-' applications which allowed me to implement into my own project.
+- <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+  - Provided constant code checking and alternative methods. I utilised ChatGPT a lot when encountering errors with the workspace or certain bugs that would appear. It was very helpful to have the errors explained and broken down, allowing me to resolve them with ease.
+
 
 ### Media
   
   - Favicon: https://favicon.io/emoji-favicons/christmas-tree
+
   - candy-cane-border.jpg: 
+
   - frozen-glass:
   Image by <a href="https://www.freepik.com/free-vector/realistic-ice-texture-illustration_22900014.htm#query=frozen glass&position=8&from_view=search&track=ais&uuid=5244508f-d949-4938-9a0c-ee0014b5e54e](https://www.freepik.com/free-vector/realistic-ice-texture-illustration_22900014.htm#query=frozen%20glass&position=8&from_view=search&track=ais&uuid=5244508f-d949-4938-9a0c-ee0014b5e54e)">Freepik</a>
 
@@ -287,23 +292,25 @@ The live link can be found here - <https://github.com/HCaldwell95/jingle-jubilee
 - bauble.png: https://www.rawpixel.com/image/12874290/png-christmas-ball-neon-light-night-generated-image-rawpixel
 
 - candy-cane.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by Freepik - Flaticon</a>
+
 - star.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by Md Tanvirul Haque - Flaticon</a>
+
 - gingerbread.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by iconixar - Flaticon</a>
+
 - jingle.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by Md Tanvirul Haque - Flaticon</a>
 
-
-  
 - <a href="https://ui.dev/amiresponsive?url=https://hcaldwell95.github.io/salt-and-stone-studios/">Am I Responsive?</a> - Provided image used at the top of README.md to demonstrate responsiveness.
-<br>
 
 - All fonts were taken from <a href="https://fonts.google.com/">Google Fonts</a>.
 
 
 ## Other General Project Advice
 
-#### CodeAnywhere
+#### GitPod
 
-I encountered multiple issues with this IDE. From losing my progress on multiple occasions to workspaces simply being corrupt and unable to open. Part way through the project, I switched over to GitPod. This left me with concerns that my git commits may not be consistent.
+I renamed my repository on GitHub and for a moment, thought that I needed to open a new workspace to suit (I didn't know I could just rename my workspace!). During this brief switch to the new workspace, I tried to push some changes but noticed that the changes were not being refelcted on the live page. After I realised that I could change my workspace name, I went back into my original workspace and tried to push my changes which return an error.
+
+I managed to 
 
 #### GitHub
 
