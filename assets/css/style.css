@@ -183,23 +183,23 @@ h2 {
 }
 
 #candy-cane {
-    background-image: url("/assets/images/candy-cane.png");
+    background-image: url("../images/candy-cane.png");
 }
 
 #bauble {
-    background-image: url("/assets/images/bauble.png");
+    background-image: url("../images/bauble.png");
 }
 
 #star {
-    background-image: url("/assets/images/star.png");
+    background-image: url("../images/star.png");
 }
 
 #gingerbread {
-    background-image: url("/assets/images/gingerbread.png");
+    background-image: url("../images/gingerbread.png");
 }
 
 #jingle {
-    background-image: url("/assets/images/jingle.png");
+    background-image: url("../images/jingle.png");
 }
 
 /* Result styles */
