@@ -1,5 +1,5 @@
 /**
- * JavaScript for the 'Rock, Paper, Scissors, Lizard, Spock' style game (lines 5 - 101)
+ * JavaScript for the 'Candy Cane, Bauble, Star, Gingerbread, Jingle' game (lines 5 - 101)
  */
 
 /* Variables to store user and computer choices */

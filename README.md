@@ -10,6 +10,8 @@ Below, I will outline each step of the process and my reasonings used to plan th
 
 Thank you for taking the time to view my project and I truly hope you enjoy it as much as I did designing and developing it.
 
+Note: This project was made purely for educational reasons.
+
 <a href="https://hcaldwell95.github.io/jingle-jubilee-joust/" target="_blank">View live project here</a>
 
 ## UX - User Experience Design
@@ -194,6 +196,8 @@ In the features section below, you will see all of the features that I have impl
   - 1280px x 900px (Laptop)
   - 1440px x 900px (Desktop)
 
+- I run all of my JavaScript code through <a href="https://jshint.com/">JSHint</a> which returned no errors or warnings once I had altered the configuration to allow for ES6 and jQuery.
+
 ### Validator Testing
 
 I used the  <a href="https://validator.w3.org/">W3C HTML Validator</a> and <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a> to validate every page of the project to ensure there were no syntax errors in the project.
@@ -202,17 +206,19 @@ I used the  <a href="https://validator.w3.org/">W3C HTML Validator</a> and <a hr
 
 <img src="assets/readme-images/html-validation-errors.png" alt="Image showing the HTML errors found on the validation page">
 
-<br>
-
     - To fix this, I removed the redundant trailing slash from line 10 and also the obsolete backgroudn attribute from line 19. This resolved the error.
 
 - I received the errors below when passing my webpage CSS through the official <a href="https://validator.w3.org/">W3C Markup Validator</a> for my CSS
 
 <img src="assets/readme-images/css-validation-errors.png" alt="Image showing the CSS errors found on the validation page">
 
+    - To fix this, I fixed the typos in the font-size styles on lines 13 and 242. I then amended the max-height value to a suitable figure.
+
 <br>
 
-    - To fix this, I fixed the typos in the font-size styles on lines 13 and 242. I then amended the max-height value to a suitable figure.
+- I run all of my JavaScript code through <a href="https://jshint.com/">JSHint</a> which returned no errors or warnings once I had altered the configuration to allow for ES6 and jQuery.
+
+<img src="assets/readme-images/jshint.png" alt="Image showing the returned information from JSHint">
 
 ### Fixed Bugs
 
@@ -345,8 +351,23 @@ The live link can be found here - <https://github.com/HCaldwell95/jingle-jubilee
 
 I renamed my repository on GitHub and for a moment, thought that I needed to open a new workspace to suit (I didn't know I could just rename my workspace!). During this brief switch to the new workspace, I tried to push some changes but noticed that the changes were not being refelcted on the live page. After I realised that I could change my workspace name, I went back into my original workspace and tried to push my changes which return an error.
 
-I managed to 
+I managed to merge these two workspaces and force my previous workspace to become the main / default again. However, it may show in my git log that there are inputs from multiple sources, which I can confirm is not the case.
 
-#### GitHub
 
-During this project, my account was migrated to a Code Institute student account. All of my repositories and access remained, but when reviewing the git logs, there is a difference shown between my profile during this stage. Both profiles share the name of HCaldwell95, but at first glance it appears that the git commits come from another user. I can confirm that all commits have been from myself and no other user has ever accessed my project. I believe this is due to the account migration.
+## Disclaimer
+
+This project, "Jingle Jubilee Joust," is created for educational purposes. It serves as a demonstration of skills acquired during the learning process. The content, including code snippets, design elements, and any related materials, is provided with the primary intention of showcasing the developer's abilities and the application of programming concepts.
+
+### Not for Commercial Use:
+This project is not intended for commercial purposes. Any resemblance to real products, services, or entities is purely coincidental.
+
+### No Warranties or Guarantees:
+The developer makes no warranties or guarantees regarding the accuracy, reliability, or completeness of the information presented in this project. Users are encouraged to review, modify, and use the code responsibly and at their own risk.
+
+### Educational Use Only:
+Users are reminded that this project is created as part of an educational journey and should be treated as such. It is not recommended for deployment in production environments without thorough review and modification.
+
+### Acknowledgment:
+Certain code snippets or design elements may be inspired by existing projects, tutorials, or documentation. The developer acknowledges the sources and expresses gratitude to the educational resources that contributed to the learning process.
+
+By accessing and using this project, users agree to the terms outlined in this disclaimer.
