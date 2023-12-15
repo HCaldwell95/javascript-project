@@ -4,6 +4,7 @@
 body {
     background-image: url("../images/frosty-background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     width: 80%;
     max-width: 700px;
@@ -144,6 +145,8 @@ h2 {
     background-image: url("../images/frozen-glass.jpg");
     background-size: cover;
     background-position: center;
+    border: solid 2px transparent;
+    border-radius: 30px;
     opacity: 0.5;
     z-index: -1;
 }

@@ -1,20 +1,20 @@
 # Jingle Jubilee Joust - My Milestone Project
 
-<img src="assets/images/responsive-test.jpg" alt="Image showing responsive test for my website" width="100%">
+<img src="assets/readme-images/responsive-test.png" alt="Image showing responsive test for my website" width="100%">
 
 Welcome to my second milestone project, Jingle Jubilee Joust.
 
-The purpose of this project is to demonstrate my learning and understanding of the JavaScript modules that I have completed and to implement them into a live project. This was a great opportunity to showcase my skills in design and development. The project is a functional website, built with HTML, CSS and JavaScript. It features a fully operational JavaScript game, further building on my HTML and CSS skills.
+The purpose of this project is to demonstrate my learning and understanding of the JavaScript modules that I have completed so far and to implement them into a live project. This was a great opportunity to showcase my skills in design and development. The project is a functional website, built with HTML, CSS and JavaScript. It features a fully operational JavaScript game, further building on my HTML and CSS skills.
 
 Below, I will outline each step of the process and my reasonings used to plan this project. I will reference my sources and highlight my focus on user experience design.
 
 Thank you for taking the time to view my project and I truly hope you enjoy it as much as I did designing and developing it.
 
-<a href="https://github.com/HCaldwell95/jingle-jubilee-joust" target="_blank">View live project here</a>
+<a href="https://hcaldwell95.github.io/jingle-jubilee-joust/" target="_blank">View live project here</a>
 
 ## UX - User Experience Design
 
-The inspiration behind the planning of this project comes largely from my love of Christmas and my recent rewatch of The Big Bang Theory which features the fan made: <a href="http://www.samkass.com/theories/RPSSL.html>" target="_blank">Rock, Paper, Scissors, Lizard, Spock</a> game, created by Sam Kass and Karen Bryla. 
+The inspiration behind the planning of this project comes largely from my love of Christmas and my recent binge of <a href="https://en.wikipedia.org/wiki/The_Big_Bang_Theory" target="_blank">The Big Bang Theory </a>which features the fan made: <a href="http://www.samkass.com/theories/RPSSL.html>" target="_blank">Rock, Paper, Scissors, Lizard, Spock</a> game, created by Sam Kass and Karen Bryla. 
 
 By thinking of the user experience through each step of this design journey, it has resulted in a more positive experience and general feel.
 
@@ -34,10 +34,10 @@ My aim as the creator of this project is to provide entertainment to my users an
 
 Creator Goals
 - I aim to ensure my project is easy to navigate.
-- Due to my project consisting of only basic information regarding the game and the game itself, I wanted to ensure that the page is aesthetically pleasing.
+- Due to my project consisting of only basic information regarding the game and the game itself, I want to ensure that the page is aesthetically pleasing.
 - As a creator, I strive to invoke positive emotional responses from users.
 - My content should be relatable. Any images, text or quotes should have purpose.
-- I don't want to distract my users from the game they have visited to play, so I need to invest time into establishing a structure that works well for my project.
+- I don't want to distract my users from the game that they have visited to play, so I need to invest time into establishing a structure that works well for my project.
 
 Once I established my strategy, the most important consideration from the user's perspective was how a user would feel going through the project.
 
@@ -53,12 +53,12 @@ First-time visitor goals:
 
 Returning visitor goals
 
-- As a revisiting user, I aim to establish contact with the creator or creators, either through social links or links to alternative websites, potentially with games similar to this which I may enjoy.
+- As a revisiting user, I aim to have replayability and the ability pick up the rules of the game easily.
 - I seek the ability to reference information sources or discover the origins of the provided content.
 
 The user stories empower me to develop a clearer concept of the project's feature requirements and their relative priorities.
 
-During my initial planning, I researched other potential browser games reviewed their websites. Many of these websites overloaded their users with so much content and vibrant colours which didn't coordinate well. Others I found to be lacking in colour and engaging imagery or insufficient detail about the game that I am playing.
+During my initial planning, I researched a number of other potential browser games and reviewed their websites. Many of these websites overloaded their users with so much content and vibrant colours which didn't coordinate well. Others I found to be lacking in colour and engaging imagery or insufficient detail about the game that I am playing.
 
 I asked my friends and family members what elements of a browser game that they would be concerned with and their responses helped me to establish the core content for the website and where my focus should be.
 
@@ -66,14 +66,15 @@ I asked my friends and family members what elements of a browser game that they 
 
 Based on my strategy goals, I was able to establish that I wouldn't be able to implement everything that I had thought of and the suggestions of what users would like to see. It simply wasn't feasible for my initial release. 
 
-The easiest solution for me to start was a minimum viable product, which would provide the core content that I had deduced from my research.
+The best solution for me to start creating was a minimum viable product, which would provide the core content that I had deduced from my research.
 
 I decided to break my webpage down into manageable sections:
 
 #### Section 1: Headings & Introduction - 
 
 - The main heading, which should be fun and engaging to draw the user in.
-- An introduction to the game with a bit of lore to allow users to be emersed in the world I am creating.
+- Sub-headings to allow me to break up my page and allocate content accordingly.
+- An introduction to the game with a bit of lore to allow users to feel emersed in the world I am creating.
 
 #### Section 2: Core Features (JavaScript) - 
 
@@ -106,11 +107,11 @@ I chose these fonts because they are subtle and cohesive. They allowed for just 
 
 - Including the Christmas countdown feature was a priority for me. I wanted my webpage to be more than just a single experience for the user and this method was perfect for my vision.
 
-Uniform imagery and font styling throughout the project helps my users to build a familiarity throughout the project.
+- Uniform imagery and font styling throughout the project helps my users to build a familiarity throughout the project.
 
-The text will be consistent on all (future)pages in fonts and colors with subtle changes to layouts and positioning to prevent monotonous scrolling through similar looking content.
+- The text will be consistent on all (future)pages in fonts and colors with subtle changes to layouts and positioning to prevent monotonous scrolling through similar looking content.
 
-Responsive design across all devices guarantees proper image scaling and readability without pixelation, making content accessible to a wide range of users.
+- Responsive design across all devices guarantees proper image scaling and readability without pixelation, making content accessible to a wide range of users.
 
 ## Skeleton Plane
 
@@ -131,7 +132,7 @@ In the features section below, you will see all of the features that I have impl
 
   <br>
 
-  <img src="assets/images/" alt="Image showing logo of website on landing page">
+  <img src="assets/readme-images/logo.png" alt="Image showing logo of website on landing page">
 
 <br>
 
@@ -141,7 +142,7 @@ In the features section below, you will see all of the features that I have impl
 
   <br>
 
-<img src="assets/images/" alt="Image showing landing page of website">
+<img src="assets/readme-images/landing-page.png" alt="Image showing landing page of website">
 
 <br>
 
@@ -151,34 +152,35 @@ In the features section below, you will see all of the features that I have impl
 
   <br>
 
-  <img src="assets/images/" alt="Image showing the christmas countdown section of the website">
+  <img src="assets/readme-images/christmas-countdown.png" alt="Image showing the christmas countdown section of the website">
 
 - __The Game Section__
 
   - This section is the main purpose of this webpage. It displays a title instructing the user on their next step, followed by a brief description on how to begin the game.
   - As the name suggests, the game is situated within this section and this is where our users will be aiming to be while browsing our webpage.
+  - Initially, the game section only shows the brief on how to begin the game, along with the five options available to the user. Once a choice has been made, the area expands, revealing the results of their decision.
  
-  <img src="assets/images/" alt="Image showing the experience game section of the website">
+  <img src="assets/readme-images/game-area.png" alt="Image showing the initial Game Section of the website">
 
 <br>
 
 - __The Game Section (Continued...)__
 
-- Initially, the game section only shows the brief on how to begin the game, along with the five options available to the user. Once a choice has been made, the area expands, revealing the results of their decision.
-- Once revealed, the results section displays the user and computer choices and reveals the winner. These scores are then tracked and tallied up for the user.
-<br>
-- 
+  - Once a choice has been made, the area expands, revealing the results of their decision.
+  -There is a score counter at the bottom to keep track of the user's current scores. This is incrememnted accordingly every time the game is played.
 
-<img src="assets/images/" alt="Image showing the Game Section"></a>
+<br>
+
+<img src="assets/readme-images/game-area-revealed.png" alt="Image showing the Game Section once revealed"></a>
 
 ## Testing
 
 ### Further Testing
 
 - The project was tested on the following browsers with success: Google Chrome, Microsoft Edge and Mozilla Firefox.
-- The project was manually tested on an iPhone SE, iPhone 12 and iPad Pro 12.9 with success.
-- Mozilla Firefox Developer tools were used throughout the project to help test the responsiveness across multiple device options.
-- Mozilla Firefox Developer Tools used to emulate screen sizes below:
+- The project was manually tested on an iPhone SE, iPhone 12 and iPad Pro 12.9 and a laptop with success.
+- Google Chrome Developer tools were used throughout the project to help test the responsiveness across multiple device options.
+- Google Chrome Developer Tools used to emulate screen sizes below:
   - 360px x 640px (Standard Phone)
   - 810px x 1080px (iPad)
   - 1280px x 900px (Laptop)
@@ -188,16 +190,26 @@ In the features section below, you will see all of the features that I have impl
 
 I used the  <a href="https://validator.w3.org/">W3C HTML Validator</a> and <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a> to validate every page of the project to ensure there were no syntax errors in the project.
 
-- I received the errors below when passing my webpage through the official <a href="https://validator.w3.org/">W3C Markup Validator</a>.
-- - No errors were returned when passing through the HTMl Validator. To fix it, I did this
+- I received the errors below when passing my webpage HTML through the official <a href="https://validator.w3.org/">W3C Markup Validator</a>.
+
+<img src="assets/readme-images/html-validation-errors.png" alt="Image showing the HTML errors found on the validation page">
+
 <br>
-- I received the errors below when passing my webpage through the official <a href="https://validator.w3.org/">W3C Markup Validator</a> for my CSS
-- No errors were found when passing through the official <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>.
+
+    - To fix this, I removed the redundant trailing slash from line 10 and also the obsolete backgroudn attribute from line 19. This resolved the error.
+
+- I received the errors below when passing my webpage CSS through the official <a href="https://validator.w3.org/">W3C Markup Validator</a> for my CSS
+
+<img src="assets/readme-images/css-validation-errors.png" alt="Image showing the CSS errors found on the validation page">
+
+<br>
+
+    - To fix this, I fixed the typos in the font-size styles on lines 13 and 242. I then amended the max-height value to a suitable figure.
 
 
 ### Unfixed Bugs
 
-
+When implemnenting this webpage on a larger screen, particularly one with considerable height, you may observe that the background image either repeats or terminates. To address this, I would need to explore methods to ensure this image stretches to cover the entire screen while retaining its original aspect ratio.
 
 ## Deployment
 
@@ -236,40 +248,56 @@ The live link can be found here - <https://github.com/HCaldwell95/jingle-jubilee
 
 #### Code
 
-- <a href="https://codeinstitute.net/">Code Institute, Various Tutors</a>
-  - Helped me to find solutions to many of my coding issues/queries and allowed me to refer to specific modules for further guidance.
+- <a href="https://codeinstitute.net/" target="_blank">Code Institute, Various Tutors</a>
+  - Returning to the course content helped me to find solutions to many of my coding issues/queries and allowed me to refer to specific modules for further guidance.
+  <br>
 
-- <a href="https://www.youtube.com/@OnlineTutorialsYT">Online Tutorials</a>
-  - Idea for the contact us page and form taken from their video. <a href="https://www.youtube.com/watch?v=gggB0Nq5vBk&t=654s">Link to video</a>
+  - My mentor, Harry Dhillon, has been detrimental to this project's success. His guidance and clear instruction regarding project requirements were invaluable. He effectively provided advice on my suggestions and shared insightful opinions on my work, which I greatly appreciated.
 
-- <a href="https://www.w3.org/">World Wide Web Consortium (W3C)</a>
-  - Provided access to many 'How To' pages, namely the team cards in team.html. Provided specific guide for 'Meet The Team' cards. <a href="https://www.w3schools.com/howto/howto_css_team.asp">Link to page</a>
+- <a href="https://codepen.io/763004/pen/pPGGyP?editors=1010" target="_blank">CodePen user, Brennan</a>
+  - General understanding and visual aid of the JavaScript functions required to power a 5-way rock, paper, scissors game. The code demonstrated provided a strong foundation for my game.
+
+- <a href="https://www.w3.org/" target="_blank">World Wide Web Consortium (W3C)</a>
+  - Provided access to many 'How To' pages which enabled me to better understand some functionality of my webpage.
+
+- <a href="https://www.w3schools.com/" target="_blank">W3 Schools</a>
+  - Provided insight on implementing a border-image like I have used on my introduction-area. <a href="https://www.w3schools.com/cssref/css3_pr_border-image.php" target="_blank">Link to page</a> 
+  <br>
+
+  - Provided instructional code for implementing a countdown timer like I have used on my countdown-area. <a href="https://www.w3schools.com/howto/howto_js_countdown.asp" target="_blank">Link to page</a>
+ 
+- <a href="https://kinsta.com/blog/css-text-outline/" target="_blank">Kinsta</a>
+  - Demonstrated the use of '-webkit-text-stroke-' applications which allowed me to implement into my own project.
 
 ### Media
+  
+  - Favicon: https://favicon.io/emoji-favicons/christmas-tree
+  - candy-cane-border.jpg: 
+  - frozen-glass:
+  Image by <a href="https://www.freepik.com/free-vector/realistic-ice-texture-illustration_22900014.htm#query=frozen glass&position=8&from_view=search&track=ais&uuid=5244508f-d949-4938-9a0c-ee0014b5e54e](https://www.freepik.com/free-vector/realistic-ice-texture-illustration_22900014.htm#query=frozen%20glass&position=8&from_view=search&track=ais&uuid=5244508f-d949-4938-9a0c-ee0014b5e54e)">Freepik</a>
 
-- <a href="https://www.google.co.uk/">Google Images</a>
-  - All of my images have been pulled from a google search:
-    - https://www.soundonsound.com/people/brendan-perry-quivvy-studio-church-music
-    - https://www.visitsnowdonia.info/sites/default/files/styles/home_hero_carousel_1400x600_/public/Llyn%20Llydaw%2C%20Snowdon%20-%20Yr%20Wyddfa%201400%20600.png?itok=QfjqcYiL
-    - https://bravewords.com/medias-static/images/news/2015/556DB266-bullet-for-my-valentine-post-venom-studio-diary-part-one-video-image.jpg
-    - https://www.telegraph.co.uk/content/dam/music/2015-08/Aug26/Stereophonics.jpg?imwidth=680
-    - https://www.pmtonline.co.uk/media/blog/BEST-AUDIO-MIXERS-d.jpg
-    - https://media.istockphoto.com/id/1342954577/photo/
-    - https://www.insauga.com/alexisonfire-headlines-st-catharines-born-raised-summer-shows/
-    - https://i1.pickpik.com/photos/949/859/697/background-black-coffee-coffee-desk-preview.jpg
-    - https://www.rawmusictv.com/images/og-share-image/wade-macneil.jpg
-    - https://magnetmagazine.com/wp-content/uploads/2023/03/CC-683x1024.jpg
-    - https://i.ytimg.com/vi/WnVdSogBNXM/maxresdefault.jpg
+  - dark-wood-background: <a href="https://www.freepik.com/free-photo/brown-wood-texture-high-resolution-background-image_17117475.htm#page=2&query=wooden plank texture&position=0&from_view=search&track=ais&uuid=85230b34-3e93-431c-8bba-2ab734928c40](https://www.freepik.com/free-photo/brown-wood-texture-high-resolution-background-image_17117475.htm#page=2&query=wooden%20plank%20texture&position=0&from_view=search&track=ais&uuid=85230b34-3e93-431c-8bba-2ab734928c40)">Image by rawpixel.com</a> on Freepik
+
+  - border-image: https://www.w3schools.com/cssref/css3_pr_border-image.php
+
+  - hanging-sign.png: https://www.rawpixel.com/image/12796128/png-christmas-celebration
+
+- frosty-background.jpg: <a href="https://www.freepik.com/free-vector/unfocused-winter-landscape-with-snowflakes_6029361.htm#query=christmas background&position=10&from_view=keyword&track=ais&uuid=f998f5f5-172e-40a6-87b0-686a00a623dd](https://www.freepik.com/free-vector/unfocused-winter-landscape-with-snowflakes_6029361.htm#query=christmas%20background&position=10&from_view=keyword&track=ais&uuid=f998f5f5-172e-40a6-87b0-686a00a623dd)">Image by s.salvador</a> on Freepik
+
+- bauble.png: https://www.rawpixel.com/image/12874290/png-christmas-ball-neon-light-night-generated-image-rawpixel
+
+- candy-cane.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by Freepik - Flaticon</a>
+- star.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by Md Tanvirul Haque - Flaticon</a>
+- gingerbread.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by iconixar - Flaticon</a>
+- jingle.png: <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by Md Tanvirul Haque - Flaticon</a>
+
+
   
 - <a href="https://ui.dev/amiresponsive?url=https://hcaldwell95.github.io/salt-and-stone-studios/">Am I Responsive?</a> - Provided image used at the top of README.md to demonstrate responsiveness.
 <br>
 
-- <a href="https://www.youtube.com/channel/UCbd18DQEmUApY3vE_N9UYOg">YouTube @ City And Colour</a> - The embedded video on my home page is from City And Colour's YouTube page.
-  - <a href="https://www.youtube.com/watch?v=DPjf5fGwQg0">Link to video used</a>
-
 - All fonts were taken from <a href="https://fonts.google.com/">Google Fonts</a>.
 
-- The icons throughout were taken from <a href="https://fontawesome.com/">Font Awesome</a>.
 
 ## Other General Project Advice
 
