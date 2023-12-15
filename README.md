@@ -173,6 +173,14 @@ In the features section below, you will see all of the features that I have impl
 
 <img src="assets/readme-images/game-area-revealed.png" alt="Image showing the Game Section once revealed"></a>
 
+- __User Options__
+
+  - The user has five options to choose from, Candy Cane, Bauble, Star, Gingerbread and Jingle. The user can click on any of these icons and the game will run.
+
+<br>
+
+<img src="assets/readme-images/user-options.png" alt="Image showing the user-options feature"></a>
+
 ## Testing
 
 ### Further Testing
@@ -206,10 +214,37 @@ I used the  <a href="https://validator.w3.org/">W3C HTML Validator</a> and <a hr
 
     - To fix this, I fixed the typos in the font-size styles on lines 13 and 242. I then amended the max-height value to a suitable figure.
 
+### Fixed Bugs
+
+- An error occured in which an outcome was undefined, which impacted the playability of the game.
+
+<br>
+
+<img src="assets/readme-images/gingerbread-undefined-fault-highlighted.png" alt="Image showing the highlighted fault in the console">
+
+<br>
+
+- I was able to locate the element causing the issue through testing each feature on the webpage until the error appeared. I deducted that the gingerbread user choice was causing the issues. Upon closer inspection of the JavaScript outcome code, I was able to see that I had two typos, in where a space was used in place of "-" inbetween the candy cane choice. 
+
+<br>
+
+<img src="assets/readme-images/gingerbread-undefined-fault-found.png" alt="Image showing the fault within my code">
+
+<br>
+
+- I amended these typos and tested the feature again to ensure the issue had been resolved. I tested each user-choice element at least fourty times and no faults were found.
+
+<br>
+
+<img src="assets/readme-images/gingerbread-fault-resolved.png" alt="Image showing the fault resolved">
 
 ### Unfixed Bugs
 
 When implemnenting this webpage on a larger screen, particularly one with considerable height, you may observe that the background image either repeats or terminates. To address this, I would need to explore methods to ensure this image stretches to cover the entire screen while retaining its original aspect ratio.
+
+<br>
+
+<img src="assets/readme-images/background-bug.png" alt="Image showing the background bug">
 
 ## Deployment
 
@@ -276,7 +311,7 @@ The live link can be found here - <https://github.com/HCaldwell95/jingle-jubilee
   
   - Favicon: https://favicon.io/emoji-favicons/christmas-tree
 
-  - candy-cane-border.jpg: 
+  - candy-cane-border.jpg: <a href="https://www.freepik.com/free-vector/rectangle-frame-made-candy-canes-blank-christmas-border-with-red-white-striped-lollipop-pattern-isolated-transparent-background-holiday-design_22970240.htm#query=candy%20cane%20border&position=1&from_view=keyword&track=ais&uuid=ae50d4cb-aa3e-4535-82ff-d4e797be44b9">Image by hannazasimova</a> on Freepik
 
   - frozen-glass:
   Image by <a href="https://www.freepik.com/free-vector/realistic-ice-texture-illustration_22900014.htm#query=frozen glass&position=8&from_view=search&track=ais&uuid=5244508f-d949-4938-9a0c-ee0014b5e54e](https://www.freepik.com/free-vector/realistic-ice-texture-illustration_22900014.htm#query=frozen%20glass&position=8&from_view=search&track=ais&uuid=5244508f-d949-4938-9a0c-ee0014b5e54e)">Freepik</a>
